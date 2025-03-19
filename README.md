@@ -2,7 +2,7 @@
 KRPacific Spoofer is an open-source hardware ID spoofer designed to bypass game bans by modifying system identifiers. 
 
 - Supports both temporary and permanent spoofing
-- Works for Fortnite and Valorant (Both tested)
+- Works for Fortnite and Valorant (Both tested) - Other games most likely possible as well
 
 Features
 1. HWID Spoofing – Changes hardware identifiers to prevent tracking.
