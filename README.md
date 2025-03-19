@@ -1,5 +1,5 @@
 # krpacificspoofer
-KRPacific Spoofer is an open-source hardware ID spoofer designed to bypass game bans by modifying system identifiers. This spoofer was paid, now made open-source.
+KRPacific Spoofer is an open-source hardware ID spoofer designed to bypass game bans by modifying system identifiers. This spoofer was paid, now made open-source. KeyAuth API integration is available.
 
 - Supports both temporary and permanent spoofing
 - Works for Fortnite and Valorant (Both tested) - Other games most likely possible as well
