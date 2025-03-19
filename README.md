@@ -33,5 +33,5 @@ Admin Privileges for Compilation & Execution
 
 
 Disclaimer
-This project is provided for educational and research purposes only. Use at your own risk. We do not condone or support cheating, bypassing security measures, or violating game Terms of Service.
-This project was made open-source, with the intention to put it out there purely. Any further actions with this source code are done at your own risk. Support is not provided.
+- This project is provided for educational and research purposes only. Use at your own risk. We do not condone or support cheating, bypassing security measures, or violating game Terms of Service.
+- This project was made open-source, with the intention to put it out there purely. Any further actions with this source code are done at your own risk. Support is not provided.
