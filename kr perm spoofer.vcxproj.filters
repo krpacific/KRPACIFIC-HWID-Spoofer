@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{0082126c-803c-4a5e-b533-34897326ea35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC">
+      <UniqueIdentifier>{a5ef7e16-22fc-43ee-803a-d753d81b2064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obsdium SDK">
+      <UniqueIdentifier>{196eef4a-2039-4ef4-a517-7519441edffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyAuth">
+      <UniqueIdentifier>{db8351d0-2e92-43b2-b674-1c6fe353ca1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="udmanmapper">
+      <UniqueIdentifier>{f0019901-26e5-4f14-a9fb-f1cead6724ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers">
+      <UniqueIdentifier>{2234677c-cbb7-4425-a328-953386b99323}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="udmanmapper\intel_driver.cpp">
+      <Filter>udmanmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="udmanmapper\portable_executable.cpp">
+      <Filter>udmanmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="udmanmapper\service.cpp">
+      <Filter>udmanmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="udmanmapper\udmanmapper.cpp">
+      <Filter>udmanmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="udmanmapper\utils.cpp">
+      <Filter>udmanmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord RPC\dsc.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord RPC\SourceFiles\connection_win.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord RPC\SourceFiles\discord_register_win.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord RPC\SourceFiles\discord_rpc.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord RPC\SourceFiles\rpc_connection.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord RPC\SourceFiles\serialization.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enc.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="other.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyauth.hpp">
+      <Filter>KeyAuth</Filter>
+    </ClInclude>
+    <ClInclude Include="udmanmapper\intel_driver.hpp">
+      <Filter>udmanmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="udmanmapper\intel_driver_resource.hpp">
+      <Filter>udmanmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="udmanmapper\nt.hpp">
+      <Filter>udmanmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="udmanmapper\portable_executable.hpp">
+      <Filter>udmanmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="udmanmapper\service.hpp">
+      <Filter>udmanmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="udmanmapper\udmanmapper.hpp">
+      <Filter>udmanmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="udmanmapper\utils.hpp">
+      <Filter>udmanmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\dsc.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\Includes\discord_register.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\Includes\discord_rpc.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\SourceFiles\backoff.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\SourceFiles\connection.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\SourceFiles\msg_queue.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\SourceFiles\rpc_connection.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord RPC\SourceFiles\serialization.h">
+      <Filter>Discord RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\drivers.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>KeyAuth</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>KeyAuth</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Discord RPC\SourceFiles\CMakeLists.txt">
+      <Filter>Discord RPC</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
