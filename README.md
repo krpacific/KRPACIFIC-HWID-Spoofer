@@ -27,12 +27,11 @@ How to Implement KeyAuth:
 - The file kr.cpp holds your KeyAuth Information (Labelled as 'Paste Here')
 - In order to compile this spoofer, please change to your KeyAuth API info -
 
-Building from Source
-Requirements:
-Windows (Recommended)
-C++ Compiler (MSVC, MinGW, or similar)
-Kernel Driver Signing (if applicable)
-Admin Privileges for Compilation & Execution
+Building from Source Requirements:
+- Windows (Recommended)
+- C++ Compiler (MSVC, MinGW, or similar)
+- Kernel Driver Signing 
+- Admin Privileges for Compilation & Execution
 
 
 Disclaimer
