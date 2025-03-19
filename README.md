@@ -24,7 +24,8 @@ How to Implement KeyAuth:
 2. Replace the placeholder credentials in the source code with your own.
 3. Compile the project with KeyAuth enabled.
 
-- kr.cpp holds your KeyAuth Information (Labelled as 'Paste Here') > In order to compile this spoofer, please change to your KeyAuth API info -
+- The file kr.cpp holds your KeyAuth Information (Labelled as 'Paste Here')
+- In order to compile this spoofer, please change to your KeyAuth API info -
 
 Building from Source
 Requirements:
