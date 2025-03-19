@@ -11,9 +11,9 @@
 
 using namespace KeyAuth;
 
-std::string name = (std::string)E("Woof"); // application name. right above the blurred text aka the secret on the licenses tab among other tabs
-std::string ownerid = (std::string)E("kMtEqc5Wj2"); // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
-std::string secret = (std::string)E("2b4688af28a0dd45a1c9055634538d03e0c830b66c15f8c167a95295bdb8734e"); // app secret, the blurred text on licenses tab and other tabs
+std::string name = (std::string)E("Paste Here"); // application name. right above the blurred text aka the secret on the licenses tab among other tabs
+std::string ownerid = (std::string)E("Paste Here"); // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
+std::string secret = (std::string)E("Paste Here"); // app secret, the blurred text on licenses tab and other tabs
 std::string version = (std::string)E("1.0"); // leave alone unless you've changed version on website
 std::string url = (std::string)E("https://keyauth.win/api/1.2/"); // change if you're self-hosting
 
