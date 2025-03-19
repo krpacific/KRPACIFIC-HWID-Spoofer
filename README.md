@@ -5,12 +5,12 @@ KRPacific Spoofer is an open-source hardware ID spoofer designed to bypass game 
 - Works for Fortnite and Valorant (Both tested)
 
 Features
-HWID Spoofing – Changes hardware identifiers to prevent tracking.
-MAC Address Spoofing – Modifies network adapter addresses.
-Peripheral ID Spoofing – Alters serials of connected devices.
-Registry Key Modifications – Adjusts system registry values for bypassing bans.
-Dual Mode – Supports both temporary (session-based) and permanent (persistent) spoofing.
-KeyAuth Integration – Allows developers to integrate their own authentication system via KeyAuth.
+1. HWID Spoofing – Changes hardware identifiers to prevent tracking.
+2. MAC Address Spoofing – Modifies network adapter addresses.
+3. Peripheral ID Spoofing – Alters serials of connected devices.
+4. Registry Key Modifications – Adjusts system registry values for bypassing bans.
+5. Dual Mode – Supports both temporary (session-based) and permanent (persistent) spoofing.
+5. KeyAuth Integration – Allows developers to integrate their own authentication system via KeyAuth.
 
 KeyAuth Features
 This project includes built-in support for KeyAuth, possible to add your own authentication system for security and access control.
@@ -34,4 +34,4 @@ Admin Privileges for Compilation & Execution
 
 Disclaimer
 This project is provided for educational and research purposes only. Use at your own risk. We do not condone or support cheating, bypassing security measures, or violating game Terms of Service.
-This project was made open-source, with intention to purely put it out there. Any further actions with this source code are done at your own risk. Support is not provided.
+This project was made open-source, with the intention to put it out there purely. Any further actions with this source code are done at your own risk. Support is not provided.
